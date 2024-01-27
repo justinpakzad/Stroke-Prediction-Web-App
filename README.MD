@@ -21,3 +21,15 @@ This is a web application that predicts the risk of stroke based on user input.
 - **Smoking Status**: Select the smoking status of the patient (Never Smoked, Smoker, Formerly Smoked, Prefer Not To Say).
 - **Work Type**: Select the type of work (Private, Self Employed, Government, Child, Never Worked).
 - **Ever Married**: Select whether the patient has ever been married (Yes or No).
+
+## Install Requirements
+Before running the app, make sure you have the following Python packages installed:
+- `streamlit==1.30.0`
+- `joblib==1.3.2`
+- `pandas==1.5.3`
+- `scikit-learn==1.2.2`
+- `numpy==1.23.5`
+
+You can install these packages using pip with the following command:
+```bash
+pip install -r requirements.txt
