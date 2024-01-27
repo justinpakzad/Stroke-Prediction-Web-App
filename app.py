@@ -11,8 +11,8 @@ def user_input():
     st.header("Patient Medical Record")
     st.write("Please enter your details below")
 
-    age = st.number_input("Age", min_value=0.0, max_value=80.0, step=1.0)
-    gender = st.selectbox("Gender", options=("Female", "Male")) 
+    age = st.number_input("Age", min_value=0.0, max_value=90.0, step=1.0)
+    gender = st.selectbox("Gender", options=("Female", "Male"))
     bmi = st.number_input("BMI", min_value=10.0, max_value=100.0, step=1.0)
     avg_glucose_level = st.number_input(
         "Average Glucose Level", min_value=50.0, max_value=300.0, step=1.0
@@ -57,7 +57,7 @@ def predict_stroke(model, input_data):
 def main():
     st.title("Stroke Prediciton")
 
-    rf_model = load_model("rf_final_pipeline.joblib")
+    rf_model = load_model("model/rf_final_pipeline.joblib")
 
     user_data = user_input()
     if st.button("Predict Stroke Risk"):
