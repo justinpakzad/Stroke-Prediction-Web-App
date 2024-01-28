@@ -9,7 +9,7 @@ This is a web application that predicts the risk of stroke based on user input.
     ```bash
     streamlit run app.py
     ```
-  - Open your web browser and access the app.
+  -  - Open your web browser and access the app at [this link](https://stroke-prediction-web-app-bwappucx4qt8k5nqeg2x9yh.streamlit.app/).
 
 ## Input Fields
 - **Age**: Enter the age of the patient (between 0 and 80 years).
