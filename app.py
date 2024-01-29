@@ -7,7 +7,7 @@ def user_input():
     st.header("Patient Medical Record")
     st.write("Please enter your details below")
 
-    age = st.number_input("Age", min_value=0.0, max_value=90.0, step=1.0)
+    age = st.number_input("Age", min_value=0.0, max_value=80.0, step=1.0)
     gender = st.selectbox("Gender", options=("Female", "Male"))
     bmi = st.number_input("BMI", min_value=10.0, max_value=100.0, step=1.0)
     avg_glucose_level = st.number_input(
