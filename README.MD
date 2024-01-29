@@ -1,7 +1,7 @@
 # Stroke Prediction Web App
 
 ## Overview
-This is a web application that predicts the risk of stroke based on user input.
+This is a web application that levarages machine learning to accurately predict stroke risk based on patient information.
 
 
 ## Install Requirements
@@ -25,7 +25,7 @@ pip install -r requirements.txt
     ```
   -  - Open your web browser and access the app at [this link](https://stroke-prediction-web-app-bwappucx4qt8k5nqeg2x9yh.streamlit.app/).
 
-
+## Input Fields
 - **Age**: Enter the age of the patient (between 0 and 80 years).
 - **Gender**: Select the gender of the patient (Female or Male).
 - **BMI (Body Mass Index)**: Enter the BMI of the patient (between 10 and 100).
