@@ -19,11 +19,11 @@ pip install -r requirements.txt
 
 ## Usage
 - **Running the App**:
-  - To run the app, use the following command:
+  - Open your web browser and access the app at [this link](https://stroke-prediction-web-app-bwappucx4qt8k5nqeg2x9yh.streamlit.app/).
+  - To run the app locally, use the following command:
     ```bash
     streamlit run app.py
     ```
-  -  - Open your web browser and access the app at [this link](https://stroke-prediction-web-app-bwappucx4qt8k5nqeg2x9yh.streamlit.app/).
 
 ## Input Fields
 - **Age**: Enter the age of the patient (between 0 and 80 years).
