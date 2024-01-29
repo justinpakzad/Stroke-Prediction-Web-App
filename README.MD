@@ -15,7 +15,7 @@ Before running the app, make sure you have the following Python packages install
 You can install these packages using pip with the following command:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
 - **Running the App**:
