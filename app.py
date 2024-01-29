@@ -3,10 +3,6 @@ from joblib import load
 import pandas as pd
 
 
-def load_model(path):
-    return load(path)
-
-
 def user_input():
     st.header("Patient Medical Record")
     st.write("Please enter your details below")
@@ -57,7 +53,7 @@ def predict_stroke(model, input_data):
 def main():
     st.title("Stroke Prediciton")
 
-    rf_model = load_model("model/rf_final_pipeline.joblib")
+    rf_model = load("model/rf_final_pipeline.joblib")
 
     user_data = user_input()
     if st.button("Predict Stroke Risk"):
