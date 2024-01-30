@@ -53,15 +53,15 @@ def predict_stroke(model, input_data):
 def main():
     st.title("Stroke Prediciton")
 
-    rf_model = load("model/rf_final_pipeline.joblib")
+    rf__pipeline = load("model/rf_final_pipeline.joblib")
 
     user_data = user_input()
     if st.button("Predict Stroke Risk"):
-        high_risk = predict_stroke(rf_model, user_data)
+        high_risk = predict_stroke(rf__pipeline, user_data)
         if high_risk:
-            st.error("The model predicts the patient is at high risk of stroke.")
+            st.write("The model predicts the patient is at high risk of stroke.")
         else:
-            st.success("The model predicts the patient is at low risk of stroke.")
+            st.write("The model predicts the patient is at low risk of stroke.")
 
 
 if __name__ == "__main__":
